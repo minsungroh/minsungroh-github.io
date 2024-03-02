@@ -4,6 +4,9 @@ author: happywerrior
 date: 2024-03-02 22:15:00 +0900
 categories: [Blogging, TypeScript]
 tags: [DEV]
+pin: true
+math: true
+mermaid: true
 ---
 
 #### TypeScript

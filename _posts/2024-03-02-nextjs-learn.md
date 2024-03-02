@@ -4,6 +4,9 @@ author: happywerrior
 date: 2024-03-02 18:35:00 +0900
 categories: [Blogging, Nextjs]
 tags: [DEV]
+pin: true
+math: true
+mermaid: true
 ---
 
 #### 시스템 요구사항
