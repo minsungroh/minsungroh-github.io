@@ -167,7 +167,8 @@ const str2: StrOrNum = 11;
 
 ### 연산자
 ##### 유니언 Type
-```javascirpt
+
+```javascript
 function strOrNum(value:string | number) {
     if(typeof value === "string"){
         value.toString();
