@@ -15,7 +15,7 @@ tags: [DEV]
 - 물론 실무에서는 JavaScript를 할때 Stress Test등을 통해서 걸러지긴 하지만.. 결국은 마찬가지(개발자의 공수가 많이 들어갈 수 있다)
 - JavaScript의 의 약점을 보안하기 위해서 만들어졌다고 보면 될 것이고.. 상위는 물론 JavaScript이다.
 
-#####단점
+##### 단점
 1. 초반 Setting이 불편하다.
 - `TypeScript`는 독자적인 언어가 아니기 때문에, 기존에 존재하는 Javascript Engine에서 실행된다.
 - 이 때문에 기존적으로 설치해야 하는 항목들이 있는데.. FrameWork를 사용할때 초기 설정이 까다로운 편이다.
