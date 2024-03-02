@@ -3,7 +3,7 @@ title: NextJS Tutorial Learn First
 author: happywerrior
 date: 2024-03-02 18:35:00 +0900
 categories: [Blogging, Nextjs]
-tags: [DEV]
+tags: [DEV, NextJs]
 pin: true
 math: true
 mermaid: true

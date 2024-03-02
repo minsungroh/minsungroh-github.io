@@ -3,7 +3,7 @@ title: TypeScript 기본 정리
 author: happywerrior
 date: 2024-03-02 22:15:00 +0900
 categories: [Blogging, TypeScript]
-tags: [DEV]
+tags: [DEV, TypeScript]
 pin: true
 math: true
 mermaid: true
