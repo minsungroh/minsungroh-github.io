@@ -4,7 +4,6 @@ author: happywerrior
 date: 2024-03-02 18:35:00 +0900
 categories: [Blogging, Tutorial]
 tags: [DEV]
-layout: default
 ---
 
 #### 시스템 요구사항
