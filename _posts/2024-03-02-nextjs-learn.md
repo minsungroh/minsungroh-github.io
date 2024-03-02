@@ -9,6 +9,7 @@ layout: default
 
 #### 시스템 요구사항
 ---
+
 ```
 - Node.js 18.17.0 이상
 - 운영체제: macOS, Windows(WSL 포함) 또는 Linux
@@ -25,6 +26,7 @@ $ npx create-next-app@latest
 ```
 
 ##### 기본적으로 위의 코드를 사용하는게 맞는데 [NextJs Tutorial](https://nextjs.org/docs/getting-started/installation)에서는 이와 같이 설명
+
 ```console
 $ npx create-next-app@latest nextjs-dashboard --use-npm --example "https://github.com/vercel/next-learn/tree/main/dashboard/starter-example"
 ```
