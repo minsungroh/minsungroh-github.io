@@ -15,7 +15,6 @@ layout: default
 - GitHub 계정과 Vercel 계정도 필요
 ```
 
-
 #### Create a New Project
 ---
 1. Project 폴더 생성
