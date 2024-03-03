@@ -40,22 +40,17 @@ abcTexT(100304040202, 30, 101)
 #### TypeScript
 - <span class='fs-09'>File의 확장자가 `.ts` 되어 있음.</span>
 - <span class='fs-09'>`TypeScript`는 `ECMAScript 2015(ES6)`의 새롭고 강력한 기능은 포함한 모던 `JavaScript`의 기능을 지원하여 좀 더 견고한 컴포넌드를 개발하는데 많은 도움을 줄 수 있음.</span>
-
 ##### 장점
 - <span class='fs-09'>코드 량만 보면 굳이 `TypeScript`를 써야 할까 싶지만, TypeScript를 사용하면 JavaScript와 달리 코드 작성 과정에서 코드를 실시간으로 디버깅할 수 있어 매우 편리.</span>
 
 ##### 단점
 1. <span class='fs-09'>자료형때문에 귀찮은 점이 있다.</span>
 - <span class='fs-08'>자동으로 타입이 지정되기도 하지만, 필요한 부분은 한번 더 확인이 필요하기 때문에, Source에 빨간 줄이 많기 보여서 생산성이 떨어지기도 한다.</span>
-
 2. <span class='fs-09'>Interface나 class의 이름때문에 오류가 생길 때도 있다.</span>
 - <span class='fs-08'>같은 내용을 담고 있다 하더라도 이름이 다른 경우 문제의 야기성이 있다.</span>
 - <span class='fs-08'>또란 다른 내용이 더라도 이름이 비슷한 경우도 문제가 될 수 있다.</span>
-
 3. <span class='fs-09'>가독성이 떨어진다.</span>
-
 4. <span class='fs-09'>결과적으로 `TypeScript`에서 `JavaScript`에서 생기는 오류를 완전히 피할 수는 없다.</span>
-
 ###### Example
 ```javascript
 function abcText(text:string, limit:number, symbol:string="..."):string {
@@ -63,7 +58,6 @@ function abcText(text:string, limit:number, symbol:string="..."):string {
 }
 ```
 <span class='fs-09'>`TypeScript`같은 경우 선언할 때부터 `DataType을 지정`하기 때문에 실행시 컴파일 과정 부터 오류가 발생.</span>
-
 ```javascript
 abcTexT(100304040202, 30, 101)              
 // Argument of type 'number' is not assignable to parameter of type 'string'.
