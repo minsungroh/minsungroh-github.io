@@ -18,12 +18,10 @@ function abcText(text, limit, symbol="..."){
 }
 ```
 <span class='fs-09'>위의 함수를 `javascript`에서 실행을 하면 `Type`이 올바르지 않더라도 오류가 발생되지 않습니다.</span>
-
 ```javascript
 abcTexT(100304040202, 30, 101)              // 결과값 "100304040202"
 ```
 <span class='fs-09'>만약 아래와 같이 특정 Type의 유효성 검사를 하게 되면. Type의 문제로 오류가 발생할 소지가 있다.</span>
-
 ```javascript
 function abcText(text, limit, symbol="..."){
     if(typeof text !== "string")    throw new Error("1번째 인자는 문자여야 함");
